@@ -1,0 +1,16 @@
+{
+  "name": "ENHANCE Trello Sprint Goals",
+  "description": "Make those sprint goals nice and easy to read",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "/images/check_48.png",
+    "128": "/images/check_128.png"
+  },
+  "action": {}
+}
+
