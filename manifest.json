@@ -1,6 +1,6 @@
 {
-  "name": "ENHANCE Trello Sprint Goals",
-  "description": "Make those sprint goals nice and easy to read",
+  "name": "ENHANCE Sprint Goals",
+  "description": "Make those sprint goals nice and easy to read by displaying them in a modal.",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],
