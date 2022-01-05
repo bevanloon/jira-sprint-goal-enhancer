@@ -39,12 +39,11 @@ function createModal() {
   modalContent.appendChild(createHeading());
 
   let sprintGoals = document.getElementsByClassName("ghx-sprint-goal")[0].innerText;
+  let sprintGoalTitle = document.body.querySelector(".ghx-sprint-goal > span").getAttribute("title")
+
   let sprintGoalsArray = [];
-  if (sprintGoals.includes("|")) {
-    sprintGoalsArray = sprintGoals.split("|");
-  } else {
-    sprintGoalsArray = sprintGoals.split(".");
-  }
+  sprintGoalsArray = sprintGoalTitle.split("\n");
+
   const modalText = document.createTextNode(sprintGoals);
   for(const para of sprintGoalsArray) {
     const newP = document.createElement('p');
