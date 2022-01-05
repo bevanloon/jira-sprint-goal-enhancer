@@ -1,9 +1,9 @@
 # Installation
 
-* Clone the repo.
+* Clone the repo or download the code and unzip it.
 * Open a new chrome tab and navigate to `chrome://extensions`.
 * Toggle the `Developer mode` switch to the right of the screen.
-* Click the `Load unpacked` button and select the directory where you cloned the repo.
+* Click the `Load unpacked` button and select the directory where you cloned or unzipped the code.
 
 You should be able to pin the extension which will give you a nice button to click in your chrome toolbar.
 
