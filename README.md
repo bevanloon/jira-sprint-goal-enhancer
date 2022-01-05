@@ -9,8 +9,11 @@ You should be able to pin the extension which will give you a nice button to cli
 
 # Limitations
 
-The extension splits the sprint goals string and will display each "goal" on a separate line.
+The extension splits the sprint goals on `\n` in the `title` tag of the sprint goal `span` element.
 
-It will use either the pipe character `|` or a fullstop `.` to do this.
+It expects the markup similar to the following:
 
-This means when writing your sprint goals, you should use either the pipe character or a fullstop to separate you individual sprint goals.
+```
+<div class="ghx-sprint-goal"><span title="Sprint goal 1
+Sprint goal 2">Sprint goal 1 Sprint goal 2</span></div>
+```
